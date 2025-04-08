@@ -1,0 +1,23 @@
+.research {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.research::before {
+    content: "";
+    position: fixed; /* Make the background fixed to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the background spans the full width */
+    height: 100%; /* Ensure the background spans the full height */
+    min-height: 100vh; /* Ensure it covers at least the viewport height */
+    background-image: url('../../public/aurora.jpg');
+    background-size: cover; /* Ensure the image covers the entire area */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; /* Center the background image */
+    opacity: 0.08;
+    z-index: -1; /* Ensure the background is behind the content */
+}

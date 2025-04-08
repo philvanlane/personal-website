@@ -1,0 +1,120 @@
+.profile-card {
+    width: 30%;
+}
+
+.profile-card img {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.profile-content img {
+    width: 16px;
+    height: 16px;
+    aspect-ratio: 1/1;
+}
+
+.profile-card .profile-content {
+    margin-top:20px;
+    color: rgb(29,48,48);
+}
+
+.about-content {
+    max-width: 1200px;
+    width: 100%;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Ensure the pseudo-element is positioned relative to this container */
+    margin: 0; /* Remove any default margins */
+    margin-top: 40px;
+    padding: 0; /* Remove any default padding */
+    width: 100%; /* Ensure it spans the full width of the container */
+    overflow: hidden; /* Prevent any overflow issues */
+}
+
+.about-content::before {
+    content: "";
+    position: fixed; /* Make the background fixed to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the background spans the full width */
+    height: 100%; /* Ensure the background spans the full height */
+    min-height: 100vh; /* Ensure it covers at least the viewport height */
+    background-image: url('../../public/aurora.jpg');
+    background-size: cover; /* Ensure the image covers the entire area */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; /* Center the background image */
+    opacity: 0.08;
+    z-index: -1; /* Ensure the background is behind the content */
+}
+
+.about-desc {
+    text-align: left;
+    width: 65%;
+    padding-left: 8em;
+}
+
+h1{
+    color: blue
+}
+
+.profile-card-details {
+    font-size: large;
+    word-spacing: 0%;
+
+    a {
+        
+        text-decoration: none;
+        color: rgb(2, 89, 113);
+    }
+}
+
+hr {
+    justify-self: center;
+    width: 80% !important;
+    color: black;
+    border-top: 2px solid black;
+    opacity: 100%;
+}
+
+.profile-card-contact a {
+    text-decoration: none;
+    /* color: rgb(29,48,48); */
+    /* color: rgb(2, 89, 113); */
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .profile-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .about-desc {
+        width: 90%;
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+.about-desc p {
+    font-size: 17px;
+    
+    a {
+        text-decoration: none;
+    }
+}
+
+.spacer {
+    height: 1rem; /* or however much space you want */
+  }
