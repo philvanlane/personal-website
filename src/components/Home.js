@@ -38,7 +38,8 @@ const Home = () => {
                 <h1>About Me</h1>
                 <br></br>
                 <p>
-                I am currently a 3rd year PhD candidate with the David A. Dunlap Department of Astronomy & Astrophysics at University of Toronto (UofT). My research focuses on how we can use rotation and magnetic activity to constrain the ages of low mass main sequence stars, with the goal of using that information to inform exoplanet evolution models. My thesis advisors are Drs. Joshua S. Speagle (沈佳士) and Gwendolyn Eadie from U of T, and Dr. Ryan Cloutier from McMaster University. Starting Fall 2025, I will also be a Visiting Graduate Student at <a href="https://astro.ucsd.edu/" target="_blank" rel="noopener noreferrer">UC San Diego</a> with Dr. Chris Theissen.
+                I am currently a 3rd year PhD candidate with the David A. Dunlap Department of Astronomy & Astrophysics at University of Toronto (UofT). My research focuses on how we can use rotation and magnetic activity to constrain the ages of low mass main sequence stars, with the goal of using that information to inform exoplanet evolution models. My thesis advisors are Drs. Joshua S. Speagle (沈佳士) and Gwendolyn Eadie from U of T, and Dr. Ryan Cloutier from McMaster University.
+                {/* Starting Fall 2025, I will also be a Visiting Graduate Student at <a href="https://astro.ucsd.edu/" target="_blank" rel="noopener noreferrer">UC San Diego</a> with Dr. Chris Theissen. */}
                 <div className="spacer"></div>
                 I was born and raised in Toronto, and completed my BSc in Earth Science (with a Geophysics specialization) at University of Waterloo in 2015. I spend the next seven years working in data engineering, software development, and product management before beginning my PhD in 2022. 
                 <div className="spacer"></div>

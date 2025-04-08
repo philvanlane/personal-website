@@ -22,9 +22,9 @@ function App() {
             <div className="route-link">
               <a className="link" href="/#/research">Research</a>
             </div>
-            <div className="route-link">
+            {/* <div className="route-link">
               CV
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>
