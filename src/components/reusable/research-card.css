@@ -1,0 +1,82 @@
+.gyro-video {
+    width: 35%;
+
+}
+
+.gyro-video video {
+        width: 100%;
+        max-width: 600px;
+        height: auto; /* Maintain the aspect ratio */
+        overflow: hidden; /* Prevent any overflow */
+        display: block; /* Ensure it behaves as a block element */
+        border-color: darkslategrey;
+        border-width: 2px;
+        border-style: solid;
+    }
+
+.gyro-content {
+    width: 65%;
+    padding-left: 4rem;
+    text-align: left;
+}
+
+.vid-caption {
+    justify-self: center;
+    text-align: center;
+    margin-top: 15px;
+    font-size: smaller;
+    width: 90%;
+}
+
+.research-card {
+    display: flex;
+    width: 100%;
+    margin: 60px;
+    align-items: center;
+}
+
+.research-title {
+    font-size: xx-large;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.gyro-collaborators {
+    font-size: larger;
+}
+
+.gyro-paper-details {
+    margin-top: 15px;
+    font-size: large;
+}
+
+.gyro-paper-details a {
+    text-decoration: none;
+    color: rgb(2,89,113);
+    font-weight: bold;
+}
+
+.gyro-description {
+    font-size: large;
+    margin-top: 15px;
+}
+
+@media (max-width: 900px) {
+    .research-card {
+      flex-direction: column; /* Stack links vertically */
+      align-items: center;
+      padding: 10px 0;
+    }
+
+    .gyro-video {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .gyro-content {
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        padding-left: 0px;
+    }
+  }

@@ -16,7 +16,7 @@
   align-items: center; /* Center items vertically */
   padding: 15px 15px;
   padding-inline: 30px;
-  max-width: 1200px;
+  max-width: 1500px;
 }
 
 @media (max-width: 768px) {
