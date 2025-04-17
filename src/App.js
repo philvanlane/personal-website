@@ -23,7 +23,7 @@ function App() {
               <a className="link" href="/#/research">Research</a>
             </div>
             <div className="route-link">
-            <a href={`${process.env.PUBLIC_URL}/CV.PDF`} target="_blank" rel="noopener noreferrer">
+            <a href={`${process.env.PUBLIC_URL}/cv.pdf`} target="_blank" rel="noopener noreferrer">
               CV
             </a>
             </div>
