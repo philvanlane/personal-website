@@ -22,9 +22,11 @@ function App() {
             <div className="route-link">
               <a className="link" href="/#/research">Research</a>
             </div>
-            {/* <div className="route-link">
+            <div className="route-link">
+            <a href={`${process.env.PUBLIC_URL}/CV.PDF`} target="_blank" rel="noopener noreferrer">
               CV
-            </div> */}
+            </a>
+            </div>
           </div>
         </div>
       </nav>
