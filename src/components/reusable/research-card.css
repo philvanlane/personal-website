@@ -61,6 +61,13 @@
     margin-top: 15px;
 }
 
+.chronoflow-link {
+    padding-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    ;
+}
+
 @media (max-width: 900px) {
     .research-card {
       flex-direction: column; /* Stack links vertically */

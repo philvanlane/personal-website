@@ -43,7 +43,7 @@ const Home = () => {
                 <div className="spacer"></div>
                 I was born and raised in Toronto, and completed my BSc in Earth Science (with a Geophysics specialization) at University of Waterloo. I then spent the next seven years working in data engineering, software development, and product management before beginning my PhD. 
                 <div className="spacer"></div>
-                Outside of work I love travelling and anything outdoors, especially camping, canoeing (including long distance races), and hiking. I also love playing sports (hockey, tennis, and more recently running and triathlons), and enjoy a beer and good board game at the end of the day (favourite game: Spirit Island).
+                Outside of work I love travelling and anything outdoors, especially camping, canoeing (including long distance races), and hiking. I also love playing sports (hockey, tennis, and more recently running and triathlons), and enjoy a beer and good board game at the end of the day (favourite game: Spirit Island, which I also developed a <a href="https://www.spiritislandrandomizer.com/" target="_blank" rel="noopener noreferrer">randomizer</a> for).
 
 
                 </p>

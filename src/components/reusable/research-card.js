@@ -22,11 +22,16 @@ const ResearchCard = () => {
         Collaborators: Joshua S. Speagle (沈佳士), Gwendolyn M. Eadie, Stephanie T. Douglas, Phillip A. Cargile, Catherine Zucker, Lucy (Yuxi) Lu, Ruth Angus
     </div>
     <div className='gyro-paper-details'>
+    <div className="chronoflow-link" >
+            <i class="fa-brands fa-github"></i>&nbsp;
+            <a href="https://github.com/philvanlane/chronoflow" target="_blank" rel="noopener noreferrer">ChronoFlow</a>
+            </div>
             <i class="fas fa-bookmark"></i>&nbsp;
             <a href="https://arxiv.org/abs/2412.12244" target="_blank" rel="noopener noreferrer">Van-Lane et al. (2025) preprint</a>
             <br></br>
             <i class="fas fa-bookmark"></i>&nbsp;
             <a href="https://arxiv.org/abs/2307.08753" target="_blank" rel="noopener noreferrer">Van-Lane et al. (2023) ICML paper</a>
+
     </div>
     <div className="gyro-description">
         My PhD research to date has been focused on characterizing the rotational evolution of low mass (~FGKM) main sequence (MS) stars. Stellar ages are important to astronomy on a wide range of scales, but dating these FGKM dwarfs can be challenging due to their long MS lifetimes. Importantly, they do undergo <i>stellar spindown</i> because of magnetic braking, meaning that measuring their rotation periods can provide insight into their age; this technique is known as <b>gyrochronology</b>. However, the observed dispersion in rotation rates for similar coeval stars has historically been difficult to characterize with traditional analytical models. To model stellar spindown more flexibly, we have developed a data-driven machine learning model: <b>ChronoFlow</b>. We introduced a proof-of-concept in Van-Lane et al. (2023), and have released the final model in Van-Lane at al. (2025). In the latter work, we also compiled the largest open cluster rotational catalogue to date, which we hope is useful for the wider community.
