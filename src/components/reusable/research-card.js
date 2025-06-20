@@ -24,13 +24,18 @@ const ResearchCard = () => {
     <div className='gyro-paper-details'>
     <div className="chronoflow-link" >
             <i class="fa-brands fa-github"></i>&nbsp;
-            <a href="https://github.com/philvanlane/chronoflow" target="_blank" rel="noopener noreferrer">ChronoFlow</a>
+            <a href="https://github.com/philvanlane/chronoflow" target="_blank" rel="noopener noreferrer"><b>ChronoFlow</b></a>
             </div>
-            <i class="fas fa-bookmark"></i>&nbsp;
-            <a href="https://arxiv.org/abs/2412.12244" target="_blank" rel="noopener noreferrer">Van-Lane et al. (2025) preprint</a>
+    <div className="press-link" >
+            <i class="fas fa-newspaper"></i>&nbsp;
+            <a href="https://www.artsci.utoronto.ca/news/u-t-astronomers-pioneer-innovative-machine-learning-model-determine-ages-stars" target="_blank" rel="noopener noreferrer">
+            <b>Press Release</b></a>
+            </div>
+            <i class="fas fa-scroll"></i>&nbsp;
+            <a href="https://ui.adsabs.harvard.edu/abs/2025ApJ...986...59V/abstract" target="_blank" rel="noopener noreferrer"><b>Van-Lane et al. (2025)</b> [ApJ]</a>
             <br></br>
-            <i class="fas fa-bookmark"></i>&nbsp;
-            <a href="https://arxiv.org/abs/2307.08753" target="_blank" rel="noopener noreferrer">Van-Lane et al. (2023) ICML paper</a>
+            <i class="fas fa-scroll"></i>&nbsp;
+            <a href="https://arxiv.org/abs/2307.08753" target="_blank" rel="noopener noreferrer"><b>Van-Lane et al. (2023)</b> [ICML proceedings]</a>
 
     </div>
     <div className="gyro-description">
