@@ -37,7 +37,7 @@ function App() {
         </Routes>
     </Router>
     <div className="footer">
-    &copy; Phil Van-Lane 2025. All rights reserved.
+    &copy; Phil Van-Lane 2026. All rights reserved.
     <br></br>
     Background image credit: Westend61 / Andreas Strauß
       </div>

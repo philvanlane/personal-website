@@ -9,7 +9,7 @@ const Home = () => {
                 <div className="profile-content">
                     <h1>Phil Van-Lane</h1>
                     <div className="profile-card-details">
-                    4th Year PhD Candidate
+                    5th (Final) Year PhD Candidate
                     <br></br>
                     <b>
                         <a href="https://www.astro.utoronto.ca/" target="_blank" rel="noopener noreferrer">
