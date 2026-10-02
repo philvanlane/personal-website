@@ -1,0 +1,40 @@
+name: Deploy to GitHub Pages
+
+# Builds the site and publishes it to the gh-pages branch on every push to main.
+# The custom domain comes from public/CNAME, which the build copies into build/.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-gh-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # CI=false so lint warnings don't fail the build (same as a local build)
+      - run: npm run build
+        env:
+          CI: false
+
+      - name: Publish build/ to gh-pages
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
