@@ -3,7 +3,8 @@
 
 }
 
-.gyro-video video {
+.gyro-video video,
+.gyro-video img {
         width: 100%;
         max-width: 600px;
         height: auto; /* Maintain the aspect ratio */
@@ -60,7 +61,8 @@
     margin-top: 15px;
 }
 
-.chronoflow-link {
+.chronoflow-link,
+.encotess-link {
     padding-bottom: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
